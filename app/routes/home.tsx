@@ -1,7 +1,7 @@
 import type { Route } from "./+types/home";
 import { Welcome } from "../welcome/welcome";
 import Navbar from "~/compnents/Navbar";
-import { resumes } from "constants/index";
+import { resumes } from "constants2/index";
 import ResumeCard from "~/compnents/ResumeCard";
 import { usePuterStore } from "lib/puter";
 import { useEffect } from "react";
